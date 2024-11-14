@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anonconsultantsqnbackendapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anonconsultantsqnbackendapp
+  template:
+    metadata:
+      labels:
+        app: anonconsultantsqnbackendapp
+    spec:
+      containers:
+        - name: anonconsultantsqnbackendapp
+          image: acr2045stgcanadaeast001.azurecr.io/anonconsultantsqnbackendapp
+          ports:
+            - containerPort: 3009
+          envFrom:
+            - configMapRef:
+                name: qp-backend-app-configmap

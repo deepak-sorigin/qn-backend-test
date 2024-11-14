@@ -1,0 +1,2033 @@
+[
+  {
+    "level": "1. Country",
+    "displayName": "Canada",
+    "name": "G-N:Canada",
+    "platforms": {
+      "DV360": {
+        "include": ["2124"]
+      },
+      "TTD": {
+        "include": ["tf1awko7xt"]
+      },
+      "XANDR": {
+        "include": [41]
+      }
+    }
+  },
+  {
+    "level": "1. Country",
+    "displayName": "United Kingdom",
+    "name": "G-N:UK",
+    "platforms": {
+      "DV360": {
+        "include": ["2826"]
+      },
+      "TTD": {
+        "include": ["mdgcp2cc2d"]
+      },
+      "XANDR": {
+        "include": [80]
+      }
+    }
+  },
+  {
+    "level": "1. Country",
+    "displayName": "United States",
+    "name": "G-N:US",
+    "platforms": {
+      "DV360": {
+        "include": ["2840"]
+      },
+      "TTD": {
+        "include": ["bpywp4wtwk"]
+      },
+      "XANDR": {
+        "include": [233]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Alberta",
+    "name": "G-R:CA-AB",
+    "platforms": {
+      "DV360": {
+        "include": ["20113"]
+      },
+      "TTD": {
+        "include": ["edt6nvh52y"]
+      },
+      "XANDR": {
+        "include": [556]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Alberta + British Columbia + Ontario",
+    "name": "G-R:CA-AB+BC+ON",
+    "platforms": {
+      "DV360": {
+        "include": ["20113", "20114", "20121"]
+      },
+      "TTD": {
+        "include": ["edt6nvh52y", "ijeqwee2ly", "k2p9nmlgau"]
+      },
+      "XANDR": {
+        "include": [556, 557, 562]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Alberta + Ontario",
+    "name": "G-R:CA-AB+ON",
+    "platforms": {
+      "DV360": {
+        "include": ["20113", "20121"]
+      },
+      "TTD": {
+        "include": ["edt6nvh52y", "ijeqwee2ly"]
+      },
+      "XANDR": {
+        "include": [556, 562]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Atlantic Provinces",
+    "name": "G-R:CA-AC",
+    "platforms": {
+      "DV360": {
+        "include": ["20116", "20117", "20118", "20122"]
+      },
+      "TTD": {
+        "include": ["7fuj1scogx", "qdu3c5qcex", "dztnddz8wd", "i2kzz2af2a"]
+      },
+      "XANDR": {
+        "include": [559, 560, 561, 563]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Atlantic Provinces + Quebec + Ontario",
+    "name": "G-R:CA-AC+QC+ON",
+    "platforms": {
+      "DV360": {
+        "include": ["20116", "20117", "20118", "20121", "20122", "20123"]
+      },
+      "TTD": {
+        "include": [
+          "7fuj1scogx",
+          "qdu3c5qcex",
+          "9s2hcjc5vu",
+          "ijeqwee2ly",
+          "dztnddz8wd",
+          "i2kzz2af2a"
+        ]
+      },
+      "XANDR": {
+        "include": [559, 560, 561, 562, 563, 564]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - British Columbia",
+    "name": "G-R:CA-BC",
+    "platforms": {
+      "DV360": {
+        "include": ["20114"]
+      },
+      "TTD": {
+        "include": ["k2p9nmlgau"]
+      },
+      "XANDR": {
+        "include": [557]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - British Columbia + Manitoba",
+    "name": "G-R:CA-BC+MB",
+    "platforms": {
+      "DV360": {
+        "include": ["20114", "20115"]
+      },
+      "TTD": {
+        "include": ["k2p9nmlgau", "2w27qzvrcs"]
+      },
+      "XANDR": {
+        "include": [557, 558]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Manitoba",
+    "name": "G-R:CA-MB",
+    "platforms": {
+      "DV360": {
+        "include": ["20115"]
+      },
+      "TTD": {
+        "include": ["2w27qzvrcs"]
+      },
+      "XANDR": {
+        "include": [558]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Manitoba + Saskatchewan",
+    "name": "G-R:CA-MB+SK",
+    "platforms": {
+      "DV360": {
+        "include": ["20115", "20124"]
+      },
+      "TTD": {
+        "include": ["2w27qzvrcs", "wxc1x8adg3"]
+      },
+      "XANDR": {
+        "include": [558, 565]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - New Brunswick",
+    "name": "G-R:CA-NB",
+    "platforms": {
+      "DV360": {
+        "include": ["20116"]
+      },
+      "TTD": {
+        "include": ["i2kzz2af2a"]
+      },
+      "XANDR": {
+        "include": [559]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - New Brunswick + Nova Scotia",
+    "name": "G-R:CA-NB+NS",
+    "platforms": {
+      "DV360": {
+        "include": ["20116", "20118"]
+      },
+      "TTD": {
+        "include": ["qdu3c5qcex", "i2kzz2af2a"]
+      },
+      "XANDR": {
+        "include": [559, 561]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Newfound Land",
+    "name": "G-R:CA-NL",
+    "platforms": {
+      "DV360": {
+        "include": ["20117"]
+      },
+      "TTD": {
+        "include": ["dztnddz8wd"]
+      },
+      "XANDR": {
+        "include": [560]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Northwest Territories",
+    "name": "G-R:CA-NT",
+    "platforms": {
+      "DV360": {
+        "include": ["20119"]
+      },
+      "TTD": {
+        "include": ["gr2pglpmpr"]
+      },
+      "XANDR": {
+        "include": [567]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Nova Scotia",
+    "name": "G-R:CA-NS",
+    "platforms": {
+      "DV360": {
+        "include": ["20118"]
+      },
+      "TTD": {
+        "include": ["qdu3c5qcex"]
+      },
+      "XANDR": {
+        "include": [561]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Nunavut",
+    "name": "G-R:CA-NU",
+    "platforms": {
+      "DV360": {
+        "include": ["20120"]
+      },
+      "TTD": {
+        "include": ["rrewxqvzvv"]
+      },
+      "XANDR": {
+        "include": [568]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Ontario",
+    "name": "G-R:CA-ON",
+    "platforms": {
+      "DV360": {
+        "include": ["20121"]
+      },
+      "TTD": {
+        "include": ["ijeqwee2ly"]
+      },
+      "XANDR": {
+        "include": [562]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - PEI",
+    "name": "G-R:CA-PE",
+    "platforms": {
+      "DV360": {
+        "include": ["20122"]
+      },
+      "TTD": {
+        "include": ["7fuj1scogx"]
+      },
+      "XANDR": {
+        "include": [563]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Praries Provinces",
+    "name": "G-R:CA-Prairies",
+    "platforms": {
+      "DV360": {
+        "include": ["20113", "20115", "20124"]
+      },
+      "TTD": {
+        "include": ["edt6nvh52y", "2w27qzvrcs"]
+      },
+      "XANDR": {
+        "include": [556, 558, 565]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Quebec",
+    "name": "G-R:CA-QC",
+    "platforms": {
+      "DV360": {
+        "include": ["20123"]
+      },
+      "TTD": {
+        "include": ["9s2hcjc5vu"]
+      },
+      "XANDR": {
+        "include": [564]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Saskatchewan",
+    "name": "G-R:CA-SK",
+    "platforms": {
+      "DV360": {
+        "include": ["20124"]
+      },
+      "TTD": {
+        "include": ["wxc1x8adg3"]
+      },
+      "XANDR": {
+        "include": [565]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Western Provinces",
+    "name": "G-R:CA-WC",
+    "platforms": {
+      "DV360": {
+        "include": ["20113", "20114", "20115", "20124"]
+      },
+      "TTD": {
+        "include": ["edt6nvh52y", "k2p9nmlgau", "2w27qzvrcs", "wxc1x8adg3"]
+      },
+      "XANDR": {
+        "include": [556, 557, 558, 565]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada - Yukon",
+    "name": "G-R:CA-YT",
+    "platforms": {
+      "DV360": {
+        "include": ["20125"]
+      },
+      "TTD": {
+        "include": ["3ooxtc1rax"]
+      },
+      "XANDR": {
+        "include": [566]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "Canada Exclude Quebec",
+    "name": "G-R:CAexclQC",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1024382",
+          "20113",
+          "20114",
+          "20115",
+          "20116",
+          "20117",
+          "20118",
+          "20119",
+          "20120",
+          "20121",
+          "20122",
+          "20124",
+          "20125"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "7fuj1scogx",
+          "qdu3c5qcex",
+          "edt6nvh52y",
+          "ijeqwee2ly",
+          "k2p9nmlgau",
+          "dztnddz8wd",
+          "i2kzz2af2a",
+          "2w27qzvrcs",
+          "wxc1x8adg3",
+          "3ooxtc1rax",
+          "gr2pglpmpr",
+          "rrewxqvzvv"
+        ]
+      },
+      "XANDR": {
+        "include": [556, 557, 558, 559, 560, 561, 562, 563, 565, 566, 567, 568]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Alabama",
+    "name": "G-R:US-AL",
+    "platforms": {
+      "DV360": {
+        "include": ["21133"]
+      },
+      "TTD": {
+        "include": ["d6jfnazdyp"]
+      },
+      "XANDR": {
+        "include": [3918]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Alaska",
+    "name": "G-R:US-AK",
+    "platforms": {
+      "DV360": {
+        "include": ["21132"]
+      },
+      "TTD": {
+        "include": ["qp95klwqz2"]
+      },
+      "XANDR": {
+        "include": [3919]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Arizona",
+    "name": "G-R:US-AZ",
+    "platforms": {
+      "DV360": {
+        "include": ["21136"]
+      },
+      "TTD": {
+        "include": ["ighbt1sdke"]
+      },
+      "XANDR": {
+        "include": [3920]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Arkansas",
+    "name": "G-R:US-AR",
+    "platforms": {
+      "DV360": {
+        "include": ["21135"]
+      },
+      "TTD": {
+        "include": ["dy1mmqh6je"]
+      },
+      "XANDR": {
+        "include": [3921]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - California",
+    "name": "G-R:US-CA",
+    "platforms": {
+      "DV360": {
+        "include": ["21137"]
+      },
+      "TTD": {
+        "include": ["gbr8bvk58l"]
+      },
+      "XANDR": {
+        "include": [3922]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Colorado",
+    "name": "G-R:US-CO",
+    "platforms": {
+      "DV360": {
+        "include": ["21138"]
+      },
+      "TTD": {
+        "include": ["j5kig3nexa"]
+      },
+      "XANDR": {
+        "include": [3923]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Connecticut",
+    "name": "G-R:US-CT",
+    "platforms": {
+      "DV360": {
+        "include": ["21139"]
+      },
+      "TTD": {
+        "include": ["v952qqt798"]
+      },
+      "XANDR": {
+        "include": [3924]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Delaware",
+    "name": "G-R:US-DE",
+    "platforms": {
+      "DV360": {
+        "include": ["21141"]
+      },
+      "TTD": {
+        "include": ["hl5nl9vl7w"]
+      },
+      "XANDR": {
+        "include": [3925]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - District of Columbia",
+    "name": "G-R:US-DC",
+    "platforms": {
+      "DV360": {
+        "include": ["21140"]
+      },
+      "TTD": {
+        "include": ["lq1bswysnp"]
+      },
+      "XANDR": {
+        "include": [3926]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Florida",
+    "name": "G-R:US-FL",
+    "platforms": {
+      "DV360": {
+        "include": ["21142"]
+      },
+      "TTD": {
+        "include": ["kbq2y9khge"]
+      },
+      "XANDR": {
+        "include": [3927]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Georgia",
+    "name": "G-R:US-GA",
+    "platforms": {
+      "DV360": {
+        "include": ["21143"]
+      },
+      "TTD": {
+        "include": ["oezbmzqud1"]
+      },
+      "XANDR": {
+        "include": [3928]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Hawaii",
+    "name": "G-R:US-HI",
+    "platforms": {
+      "DV360": {
+        "include": ["21144"]
+      },
+      "TTD": {
+        "include": ["tlh9phljuk"]
+      },
+      "XANDR": {
+        "include": [3929]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Idaho",
+    "name": "G-R:US-ID",
+    "platforms": {
+      "DV360": {
+        "include": ["21146"]
+      },
+      "TTD": {
+        "include": ["yp7g4d1g5q"]
+      },
+      "XANDR": {
+        "include": [3930]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Illinois",
+    "name": "G-R:US-IL",
+    "platforms": {
+      "DV360": {
+        "include": ["21147"]
+      },
+      "TTD": {
+        "include": ["ulslpfwmul"]
+      },
+      "XANDR": {
+        "include": [3931]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Indiana",
+    "name": "G-R:US-IN",
+    "platforms": {
+      "DV360": {
+        "include": ["21148"]
+      },
+      "TTD": {
+        "include": ["okdzwtizqn"]
+      },
+      "XANDR": {
+        "include": [3932]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Iowa",
+    "name": "G-R:US-IA",
+    "platforms": {
+      "DV360": {
+        "include": ["21145"]
+      },
+      "TTD": {
+        "include": ["bc616ss9tp"]
+      },
+      "XANDR": {
+        "include": [3933]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Kansas",
+    "name": "G-R:US-KS",
+    "platforms": {
+      "DV360": {
+        "include": ["21149"]
+      },
+      "TTD": {
+        "include": ["xi8a7j5dze"]
+      },
+      "XANDR": {
+        "include": [3934]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Kentucky",
+    "name": "G-R:US-KY",
+    "platforms": {
+      "DV360": {
+        "include": ["21150"]
+      },
+      "TTD": {
+        "include": ["qramzdbcfp"]
+      },
+      "XANDR": {
+        "include": [3935]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Louisiana",
+    "name": "G-R:US-LA",
+    "platforms": {
+      "DV360": {
+        "include": ["21151"]
+      },
+      "TTD": {
+        "include": ["ue7cw4nr3x"]
+      },
+      "XANDR": {
+        "include": [3936]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Maine",
+    "name": "G-R:US-ME",
+    "platforms": {
+      "DV360": {
+        "include": ["21154"]
+      },
+      "TTD": {
+        "include": ["bsxpfopn5n"]
+      },
+      "XANDR": {
+        "include": [3937]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Maryland",
+    "name": "G-R:US-MD",
+    "platforms": {
+      "DV360": {
+        "include": ["21153"]
+      },
+      "TTD": {
+        "include": ["jre6lpsmvh"]
+      },
+      "XANDR": {
+        "include": [3938]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Massachusetts",
+    "name": "G-R:US-MA",
+    "platforms": {
+      "DV360": {
+        "include": ["21152"]
+      },
+      "TTD": {
+        "include": ["f1yorutnjr"]
+      },
+      "XANDR": {
+        "include": [3939]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Michigan",
+    "name": "G-R:US-MI",
+    "platforms": {
+      "DV360": {
+        "include": ["21155"]
+      },
+      "TTD": {
+        "include": ["8aobvbtnkn"]
+      },
+      "XANDR": {
+        "include": [3940]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Minnesota",
+    "name": "G-R:US-MN",
+    "platforms": {
+      "DV360": {
+        "include": ["21156"]
+      },
+      "TTD": {
+        "include": ["4men8l2g27"]
+      },
+      "XANDR": {
+        "include": [3941]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Mississippi",
+    "name": "G-R:US-MS",
+    "platforms": {
+      "DV360": {
+        "include": ["21158"]
+      },
+      "TTD": {
+        "include": ["ni6fpp45yz"]
+      },
+      "XANDR": {
+        "include": [3942]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Missouri",
+    "name": "G-R:US-MO",
+    "platforms": {
+      "DV360": {
+        "include": ["21157"]
+      },
+      "TTD": {
+        "include": ["8t6bjy8mmu"]
+      },
+      "XANDR": {
+        "include": [3943]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Montana",
+    "name": "G-R:US-MT",
+    "platforms": {
+      "DV360": {
+        "include": ["21159"]
+      },
+      "TTD": {
+        "include": ["5ozsldlzbc"]
+      },
+      "XANDR": {
+        "include": [3944]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Nebraska",
+    "name": "G-R:US-NE",
+    "platforms": {
+      "DV360": {
+        "include": ["21162"]
+      },
+      "TTD": {
+        "include": ["jwegdvxjc2"]
+      },
+      "XANDR": {
+        "include": [3945]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Nevada",
+    "name": "G-R:US-NV",
+    "platforms": {
+      "DV360": {
+        "include": ["21166"]
+      },
+      "TTD": {
+        "include": ["r11clrp3kk"]
+      },
+      "XANDR": {
+        "include": [3946]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - New Hampshire",
+    "name": "G-R:US-NH",
+    "platforms": {
+      "DV360": {
+        "include": ["21163"]
+      },
+      "TTD": {
+        "include": ["zo83lbz13p"]
+      },
+      "XANDR": {
+        "include": [3947]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - New Jersey",
+    "name": "G-R:US-NJ",
+    "platforms": {
+      "DV360": {
+        "include": ["21164"]
+      },
+      "TTD": {
+        "include": ["df8wrnq2sy"]
+      },
+      "XANDR": {
+        "include": [3948]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - New Mexico",
+    "name": "G-R:US-NM",
+    "platforms": {
+      "DV360": {
+        "include": ["21165"]
+      },
+      "TTD": {
+        "include": ["shb636zeoh"]
+      },
+      "XANDR": {
+        "include": [3949]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - New York",
+    "name": "G-R:US-NY",
+    "platforms": {
+      "DV360": {
+        "include": ["21167"]
+      },
+      "TTD": {
+        "include": ["8sy3osydel"]
+      },
+      "XANDR": {
+        "include": [3950]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - North Carolina",
+    "name": "G-R:US-NC",
+    "platforms": {
+      "DV360": {
+        "include": ["21160"]
+      },
+      "TTD": {
+        "include": ["opfhiq1f71"]
+      },
+      "XANDR": {
+        "include": [3951]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - North Dakota",
+    "name": "G-R:US-ND",
+    "platforms": {
+      "DV360": {
+        "include": ["21161"]
+      },
+      "TTD": {
+        "include": ["ojqo2ave32"]
+      },
+      "XANDR": {
+        "include": [3952]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Ohio",
+    "name": "G-R:US-OH",
+    "platforms": {
+      "DV360": {
+        "include": ["21168"]
+      },
+      "TTD": {
+        "include": ["rp6quo572h"]
+      },
+      "XANDR": {
+        "include": [3953]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Oklahoma",
+    "name": "G-R:US-OK",
+    "platforms": {
+      "DV360": {
+        "include": ["21169"]
+      },
+      "TTD": {
+        "include": ["v6aeks1a2h"]
+      },
+      "XANDR": {
+        "include": [3954]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Oregon",
+    "name": "G-R:US-OR",
+    "platforms": {
+      "DV360": {
+        "include": ["21170"]
+      },
+      "TTD": {
+        "include": ["xqbu512vcd"]
+      },
+      "XANDR": {
+        "include": [3955]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Pennsylvania",
+    "name": "G-R:US-PA",
+    "platforms": {
+      "DV360": {
+        "include": ["21171"]
+      },
+      "TTD": {
+        "include": ["jtpwp6b329"]
+      },
+      "XANDR": {
+        "include": [3956]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Rhode Island",
+    "name": "G-R:US-RI",
+    "platforms": {
+      "DV360": {
+        "include": ["21172"]
+      },
+      "TTD": {
+        "include": ["qqplxzbhh1"]
+      },
+      "XANDR": {
+        "include": [3957]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - South Carolina",
+    "name": "G-R:US-SC",
+    "platforms": {
+      "DV360": {
+        "include": ["21173"]
+      },
+      "TTD": {
+        "include": ["99xxg6mhau"]
+      },
+      "XANDR": {
+        "include": [3958]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - South Dakota",
+    "name": "G-R:US-SD",
+    "platforms": {
+      "DV360": {
+        "include": ["21174"]
+      },
+      "TTD": {
+        "include": ["rfdl4r92jk"]
+      },
+      "XANDR": {
+        "include": [3959]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Tennessee",
+    "name": "G-R:US-TN",
+    "platforms": {
+      "DV360": {
+        "include": ["21175"]
+      },
+      "TTD": {
+        "include": ["b6ldpdfsb9"]
+      },
+      "XANDR": {
+        "include": [3960]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Texas",
+    "name": "G-R:US-TX",
+    "platforms": {
+      "DV360": {
+        "include": ["21176"]
+      },
+      "TTD": {
+        "include": ["pvov8a4m9i"]
+      },
+      "XANDR": {
+        "include": [3961]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Utah",
+    "name": "G-R:US-UT",
+    "platforms": {
+      "DV360": {
+        "include": ["21177"]
+      },
+      "TTD": {
+        "include": ["7qhyr5lb6l"]
+      },
+      "XANDR": {
+        "include": [3962]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Vermont",
+    "name": "G-R:US-VT",
+    "platforms": {
+      "DV360": {
+        "include": ["21179"]
+      },
+      "TTD": {
+        "include": ["ev97v5ntzk"]
+      },
+      "XANDR": {
+        "include": [3963]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Virginia",
+    "name": "G-R:US-VA",
+    "platforms": {
+      "DV360": {
+        "include": ["21178"]
+      },
+      "TTD": {
+        "include": ["hrkfdkujgb"]
+      },
+      "XANDR": {
+        "include": [3964]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Washington",
+    "name": "G-R:US-WA",
+    "platforms": {
+      "DV360": {
+        "include": ["21180"]
+      },
+      "TTD": {
+        "include": ["wkpjoc6iyb"]
+      },
+      "XANDR": {
+        "include": [3965]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - West Virginia",
+    "name": "G-R:US-WV",
+    "platforms": {
+      "DV360": {
+        "include": ["21183"]
+      },
+      "TTD": {
+        "include": ["m7bfnyb9pp"]
+      },
+      "XANDR": {
+        "include": [3966]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Wisconsin",
+    "name": "G-R:US-WI",
+    "platforms": {
+      "DV360": {
+        "include": ["21182"]
+      },
+      "TTD": {
+        "include": ["sm86dwu4pa"]
+      },
+      "XANDR": {
+        "include": [3967]
+      }
+    }
+  },
+  {
+    "level": "2. Region (Province/State)",
+    "displayName": "United States - Wyoming",
+    "name": "G-R:US-WY",
+    "platforms": {
+      "DV360": {
+        "include": ["21184"]
+      },
+      "TTD": {
+        "include": ["3573dmy1h8"]
+      },
+      "XANDR": {
+        "include": [3968]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Calgary",
+    "name": "G-D:CA-AB-Cal",
+    "platforms": {
+      "DV360": {
+        "include": ["1001801"]
+      },
+      "TTD": {
+        "include": ["dhgll8bqy1"]
+      },
+      "XANDR": {
+        "include": [21828]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Edmonton",
+    "name": "G-D:CA-AB-Edm",
+    "platforms": {
+      "DV360": {
+        "include": ["1001808"]
+      },
+      "TTD": {
+        "include": ["7h2ptuhzqb"]
+      },
+      "XANDR": {
+        "include": [21890]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Edmonton + Calgary Metropolitan Area",
+    "name": "G-D:CA-AB-EDM+CMA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1001793",
+          "1001801",
+          "1001808",
+          "9047859",
+          "9196012",
+          "9198662"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "dhgll8bqy1",
+          "7h2ptuhzqb",
+          "a7s1y67lyi",
+          "whkyokepvc",
+          "ry6s2fd5wa",
+          "c6qyldq64w",
+          "cdp2mmel9b",
+          "cq6ri2p9m6",
+          "e6914f0c62dc473eb957e5bebd74110d"
+        ]
+      },
+      "XANDR": {
+        "include": [21777, 21797, 21828, 21846, 21856, 21867, 21890, 21961]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Leduc",
+    "name": "G-D:CA-AB-Leduc",
+    "platforms": {
+      "DV360": {
+        "include": ["1001825"]
+      },
+      "TTD": {
+        "include": ["xn51bhrmv9"]
+      },
+      "XANDR": {
+        "include": [21983]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Okotoks",
+    "name": "G-D:CA-AB-Okotoks",
+    "platforms": {
+      "DV360": {
+        "include": ["1001832"]
+      },
+      "TTD": {
+        "include": ["5b486d723772489f89d0c04e511d7fb9"]
+      },
+      "XANDR": {
+        "include": [22029]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Alberta - Spruce Grove",
+    "name": "G-D:CA-AB-SpruceGrove",
+    "platforms": {
+      "DV360": {
+        "include": ["1001843"]
+      },
+      "TTD": {
+        "include": ["sm9r8pi1qx"]
+      },
+      "XANDR": {
+        "include": [22086]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Guelph",
+    "name": "G-D:CA-ON-Guelph",
+    "platforms": {
+      "DV360": {
+        "include": ["1002283"]
+      },
+      "TTD": {
+        "include": ["j6pmqh1gps"]
+      },
+      "XANDR": {
+        "include": [23571]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - British Columbia - Greater Vancouver Area",
+    "name": "G-D:CA-BC-GVA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1001873",
+          "1001885",
+          "1001892",
+          "1001929",
+          "1001931",
+          "1001938",
+          "1001949",
+          "1001964",
+          "1001970",
+          "1001975",
+          "9105106"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "8paxq6sryd",
+          "c68377ad9ac54da1b7bae43abc0bc8c9",
+          "hhh3lbs4s4",
+          "jarp36vrzt",
+          "jyzktqbfhg",
+          "oit5w8unes",
+          "r5jvs95i3a",
+          "lpuweyhxtn",
+          "7fd054af68344527888e54d3fa4ca706",
+          "f552add5f8314a1fa2af4571feb7434c",
+          "4ced6407d124457d9066f8ef14e1bf07"
+        ]
+      },
+      "XANDR": {
+        "include": [
+          22191, 22218, 22232, 22358, 22362, 22383, 22413, 22456, 22477, 223437
+        ]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Manitoba - Winnipeg",
+    "name": "G-D:CA-MB-Winnipeg",
+    "platforms": {
+      "DV360": {
+        "include": ["1002045"]
+      },
+      "TTD": {
+        "include": ["eespdsropf"]
+      },
+      "XANDR": {
+        "include": [22688]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Multi - Greater Toronto + Vancouver Area",
+    "name": "G-D:CA-Multi-GTA+GVA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1001873",
+          "1001885",
+          "1001892",
+          "1001929",
+          "1001931",
+          "1001938",
+          "1001949",
+          "1001964",
+          "1001970",
+          "1001975",
+          "1002156",
+          "1002191",
+          "1002197",
+          "1002199",
+          "1002308",
+          "1002334",
+          "1002347",
+          "1002350",
+          "1002362",
+          "1002371",
+          "1002375",
+          "1002385",
+          "1002405",
+          "1002451",
+          "1002459",
+          "1002470",
+          "1002471",
+          "9047869",
+          "9047876",
+          "9047882",
+          "9061009",
+          "9104662",
+          "9104920",
+          "9105106",
+          "9105282",
+          "9105325",
+          "9191367",
+          "9194654",
+          "9197976",
+          "9198282",
+          "9198519",
+          "9198780",
+          "9198845",
+          "9198915",
+          "9199123"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "46qiw2ooc3",
+          "4xmo8x2ct2",
+          "8paxq6sryd",
+          "c68377ad9ac54da1b7bae43abc0bc8c9",
+          "gean2s4i58",
+          "hhh3lbs4s4",
+          "jarp36vrzt",
+          "jyzktqbfhg",
+          "l8gkmxoktp",
+          "oit5w8unes",
+          "pfmet6g3aa",
+          "pnk5ztyixj",
+          "qp9e6jp1z8",
+          "qy63e5wgpk",
+          "r5jvs95i3a",
+          "wqtyqfp5yw",
+          "xdnpiv4pyp",
+          "ytfiulxfvo",
+          "lpuweyhxtn",
+          "ne68hlcv3d",
+          "chhagh23n1",
+          "sy77n4jdkv",
+          "s2hum79hme",
+          "11mymoq39v",
+          "7dybok88f5",
+          "8xnrdxqygz",
+          "wxw3r9yzni",
+          "dgxcuton8i",
+          "89c99f4678444b7783b290a2e45d8c7d",
+          "a1a2faf7bd8a46d586178b7f2b993e64",
+          "f552add5f8314a1fa2af4571feb7434c"
+        ]
+      },
+      "XANDR": {
+        "include": [
+          22191, 22218, 22232, 22358, 22362, 22383, 22413, 22456, 22477, 23351,
+          23370, 23402, 23414, 23418, 23628, 23683, 23703, 23710, 23738, 23751,
+          23759, 23782, 23820, 23917, 23925, 23953, 23954, 214662, 223437,
+          570291, 570369
+        ]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Multi - Greaters Ottawa + Toronto + Vancouver",
+    "name": "G-D:CA-Multi-GOA+GTA+GVA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1001873",
+          "1001885",
+          "1001892",
+          "1001929",
+          "1001931",
+          "1001938",
+          "1001949",
+          "1001964",
+          "1001970",
+          "1001975",
+          "1002156",
+          "1002165",
+          "1002191",
+          "1002197",
+          "1002199",
+          "1002204",
+          "1002308",
+          "1002334",
+          "1002341",
+          "1002347",
+          "1002350",
+          "1002362",
+          "1002371",
+          "1002375",
+          "1002376",
+          "1002385",
+          "1002402",
+          "1002405",
+          "1002411",
+          "1002451",
+          "1002459",
+          "1002470",
+          "1002471",
+          "1002549",
+          "9047860",
+          "9047869",
+          "9047876",
+          "9047882",
+          "9047904",
+          "9061009",
+          "9104400",
+          "9104499",
+          "9104524",
+          "9104537",
+          "9104662",
+          "9104690",
+          "9104851",
+          "9104920",
+          "9105106",
+          "9105282",
+          "9105325",
+          "9191367",
+          "9194654",
+          "9197976",
+          "9198282",
+          "9198519",
+          "9198644",
+          "9198780",
+          "9198845",
+          "9198915",
+          "9199123"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "46qiw2ooc3",
+          "4xmo8x2ct2",
+          "8paxq6sryd",
+          "c68377ad9ac54da1b7bae43abc0bc8c9",
+          "gean2s4i58",
+          "hhh3lbs4s4",
+          "jarp36vrzt",
+          "jyzktqbfhg",
+          "l8gkmxoktp",
+          "oit5w8unes",
+          "pfmet6g3aa",
+          "pnk5ztyixj",
+          "qp9e6jp1z8",
+          "qy63e5wgpk",
+          "r5jvs95i3a",
+          "wqtyqfp5yw",
+          "xdnpiv4pyp",
+          "ytfiulxfvo",
+          "lpuweyhxtn",
+          "ne68hlcv3d",
+          "qspagidujl",
+          "chhagh23n1",
+          "sy77n4jdkv",
+          "8ner89urww",
+          "s2hum79hme",
+          "11mymoq39v",
+          "56l3p4k6cz",
+          "7dybok88f5",
+          "8xnrdxqygz",
+          "wxw3r9yzni",
+          "dgxcuton8i",
+          "p223hx8xbc",
+          "522jibc2cu",
+          "xd2es4mckl",
+          "89c99f4678444b7783b290a2e45d8c7d",
+          "a1a2faf7bd8a46d586178b7f2b993e64",
+          "f552add5f8314a1fa2af4571feb7434c",
+          "03af77bd99094017a98a9c64594c1397",
+          "6aa880f439c74ca190b70d592f95991f"
+        ]
+      },
+      "XANDR": {
+        "include": [
+          22191, 22218, 22232, 22358, 22362, 22383, 22413, 22456, 22477, 23351,
+          23365, 23370, 23401, 23402, 23414, 23418, 23433, 23628, 23683, 23696,
+          23703, 23710, 23738, 23751, 23759, 23761, 23782, 23816, 23820, 23917,
+          23925, 23953, 23954, 214662, 223437, 570291, 570369, 573017
+        ]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Nova Scotia - Halifax",
+    "name": "G-D:CA-NS-Halifax",
+    "platforms": {
+      "DV360": {
+        "include": ["9198475"]
+      },
+      "TTD": {
+        "include": ["f75lif4hjx"]
+      },
+      "XANDR": {
+        "include": [23130]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Bolton",
+    "name": "G-D:CA-ON-Bolton",
+    "platforms": {
+      "DV360": {
+        "include": ["1002186"]
+      },
+      "TTD": {
+        "include": ["jzhgafenkn"]
+      },
+      "XANDR": {
+        "include": [23396]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Cambridge",
+    "name": "G-D:CA-ON-Cambridge",
+    "platforms": {
+      "DV360": {
+        "include": ["1002200"]
+      },
+      "TTD": {
+        "include": ["84xoitvmmt"]
+      },
+      "XANDR": {
+        "include": [23423]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Greater Ottawa Area",
+    "name": "G-D:CA-ON-GOA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1002165",
+          "1002204",
+          "1002341",
+          "1002376",
+          "1002402",
+          "1002411",
+          "1002549",
+          "9047860",
+          "9047904",
+          "9104400",
+          "9104499",
+          "9104524",
+          "9104537",
+          "9104690",
+          "9104851",
+          "9198644"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "qspagidujl",
+          "8ner89urww",
+          "56l3p4k6cz",
+          "p223hx8xbc",
+          "522jibc2cu",
+          "xd2es4mckl",
+          "03af77bd99094017a98a9c64594c1397",
+          "6aa880f439c74ca190b70d592f95991f",
+          "o8v7ohcnxu",
+          "99846b0bf8ec47bfb5045b8a67de4b44"
+        ]
+      },
+      "XANDR": {
+        "include": [23365, 23401, 23433, 23696, 23761, 23816, 573017]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Greater Toronto Area",
+    "name": "G-D:CA-ON-GTA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1002156",
+          "1002191",
+          "1002197",
+          "1002199",
+          "1002308",
+          "1002334",
+          "1002347",
+          "1002350",
+          "1002362",
+          "1002371",
+          "1002375",
+          "1002385",
+          "1002405",
+          "1002451",
+          "1002459",
+          "1002470",
+          "1002471",
+          "9047869",
+          "9047876",
+          "9047882",
+          "9061009",
+          "9104662",
+          "9104920",
+          "9105282",
+          "9105325",
+          "9191367",
+          "9194654",
+          "9197976",
+          "9198282",
+          "9198519",
+          "9198780",
+          "9198845",
+          "9198915",
+          "9199123"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "46qiw2ooc3",
+          "4xmo8x2ct2",
+          "gean2s4i58",
+          "l8gkmxoktp",
+          "pfmet6g3aa",
+          "pnk5ztyixj",
+          "qp9e6jp1z8",
+          "qy63e5wgpk",
+          "wqtyqfp5yw",
+          "xdnpiv4pyp",
+          "ytfiulxfvo",
+          "ne68hlcv3d",
+          "chhagh23n1",
+          "sy77n4jdkv",
+          "s2hum79hme",
+          "11mymoq39v",
+          "7dybok88f5",
+          "8xnrdxqygz",
+          "wxw3r9yzni",
+          "dgxcuton8i",
+          "89c99f4678444b7783b290a2e45d8c7d",
+          "a1a2faf7bd8a46d586178b7f2b993e64"
+        ]
+      },
+      "XANDR": {
+        "include": [
+          23351, 23370, 23402, 23414, 23418, 23628, 23683, 23703, 23710, 23738,
+          23751, 23759, 23782, 23820, 23917, 23925, 23953, 23954, 214662,
+          570291, 570369
+        ]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Hamilton",
+    "name": "G-D:CA-ON-Hamilton",
+    "platforms": {
+      "DV360": {
+        "include": ["1002287"]
+      },
+      "TTD": {
+        "include": ["uhgy1m6cxl"]
+      },
+      "XANDR": {
+        "include": [23579]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Mississauga",
+    "name": "G-D:CA-ON-Mississauga",
+    "platforms": {
+      "DV360": {
+        "include": ["1002350", "9198845"]
+      },
+      "TTD": {
+        "include": ["pfmet6g3aa"]
+      },
+      "XANDR": {
+        "include": [23710]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Oakville",
+    "name": "G-D:CA-ON-Oakville",
+    "platforms": {
+      "DV360": {
+        "include": ["1002371"]
+      },
+      "TTD": {
+        "include": ["wqtyqfp5yw"]
+      },
+      "XANDR": {
+        "include": [23751]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Ottawa + Toronto",
+    "name": "G-D:CA-ON-OTT+TO",
+    "platforms": {
+      "DV360": {
+        "include": ["1002376", "1002451", "9198644"]
+      },
+      "TTD": {
+        "include": [
+          "46qiw2ooc3",
+          "4xmo8x2ct2",
+          "gean2s4i58",
+          "l8gkmxoktp",
+          "pfmet6g3aa",
+          "pnk5ztyixj",
+          "qp9e6jp1z8",
+          "qy63e5wgpk",
+          "wqtyqfp5yw",
+          "xdnpiv4pyp",
+          "ytfiulxfvo",
+          "ne68hlcv3d",
+          "qspagidujl",
+          "chhagh23n1",
+          "sy77n4jdkv",
+          "8ner89urww",
+          "s2hum79hme",
+          "11mymoq39v",
+          "7dybok88f5",
+          "8xnrdxqygz",
+          "56l3p4k6cz",
+          "wxw3r9yzni",
+          "dgxcuton8i",
+          "p223hx8xbc",
+          "522jibc2cu",
+          "xd2es4mckl",
+          "89c99f4678444b7783b290a2e45d8c7d",
+          "a1a2faf7bd8a46d586178b7f2b993e64",
+          "03af77bd99094017a98a9c64594c1397",
+          "6aa880f439c74ca190b70d592f95991f"
+        ]
+      },
+      "XANDR": {
+        "include": [23761, 23917]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Stoney Creek",
+    "name": "G-D:CA-ON-StoneyCreek",
+    "platforms": {
+      "DV360": {
+        "include": ["1002435"]
+      },
+      "TTD": {
+        "include": ["bjoj1ze455"]
+      },
+      "XANDR": {
+        "include": [23881]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Quebec - Greater Montreal Area",
+    "name": "G-D:CA-QC-GMA",
+    "platforms": {
+      "DV360": {
+        "include": [
+          "1002504",
+          "1002513",
+          "1002538",
+          "1002579",
+          "1002585",
+          "1002596",
+          "1002604",
+          "1002625",
+          "1002667",
+          "1002705",
+          "9196665",
+          "9196770"
+        ]
+      },
+      "TTD": {
+        "include": [
+          "1ez592roi8",
+          "f2xfxifw7o",
+          "qzo4f25tuh",
+          "ko8mqxpkh",
+          "ljj9siphlj",
+          "saxabqvhvp",
+          "suqbg5kkf7",
+          "tqrzix6rtb",
+          "jm4fbh9qsg",
+          "58839zzlc4"
+        ]
+      },
+      "XANDR": {
+        "include": [
+          24066, 24075, 24138, 24253, 24255, 24276, 24305, 24316, 24317, 24318,
+          24319, 24385, 24510, 24605
+        ]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Quebec - Montreal",
+    "name": "G-D:CA-QC-Montreal",
+    "platforms": {
+      "DV360": {
+        "include": ["1002604", "9196770"]
+      },
+      "TTD": {
+        "include": ["f2xfxifw7o"]
+      },
+      "XANDR": {
+        "include": [24316]
+      }
+    }
+  },
+  {
+    "level": "3. Domain (City)",
+    "displayName": "Canada - Ontario - Kingston",
+    "name": "G-D:CA-ON-Kingston",
+    "platforms": {
+      "DV360": {
+        "include": ["1002310"]
+      },
+      "TTD": {
+        "include": ["xc7g4knhpg"]
+      },
+      "XANDR": {
+        "include": [23630]
+      }
+    }
+  }
+]

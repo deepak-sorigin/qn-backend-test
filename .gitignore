@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.env 
+.env.*
+coverage
+.trash
+**/.DS_Store
+src/logs/
+.idea/workspace.xml
+generated
+newrelic_agent.log

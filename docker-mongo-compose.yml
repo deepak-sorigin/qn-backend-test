@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  qn_mongo1:
+    image: mongo:latest
+    container_name: qn_mongo1
+    restart: always
+    command: mongod --replSet rs0 --bind_ip_all --keyFile /etc/mongo-keyfile --auth
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_REPLICA_SET_NAME: rs0
+    volumes:
+      - qn_mongo1_data:/data/db
+      - ./mongo-keyfile:/etc/mongo-keyfile:ro
+
+  qn_mongo2:
+    image: mongo:latest
+    container_name: qn_mongo2
+    restart: always
+    command: mongod --replSet rs0 --bind_ip_all --keyFile /etc/mongo-keyfile --auth
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_REPLICA_SET_NAME: rs0
+    volumes:
+      - qn_mongo2_data:/data/db
+      - ./mongo-keyfile:/etc/mongo-keyfile:ro
+
+  qn_mongo3:
+    image: mongo:latest
+    container_name: qn_mongo3
+    restart: always
+    command: mongod --replSet rs0 --bind_ip_all --keyFile /etc/mongo-keyfile --auth
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_REPLICA_SET_NAME: rs0
+    volumes:
+      - qn_mongo3_data:/data/db
+      - ./mongo-keyfile:/etc/mongo-keyfile:ro
+
+volumes:
+  qn_mongo1_data:
+  qn_mongo2_data:
+  qn_mongo3_data:

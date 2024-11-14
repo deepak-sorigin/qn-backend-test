@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: qn-backend-app-configmap
+data:
+  NODE_ENV: 'production'
+  PORT: '3009'
+  AZURE_KEY_VAULT_URL: 'https://akv-ce-2045-qpqn-prd-002.vault.azure.net/'

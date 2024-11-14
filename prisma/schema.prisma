@@ -1,0 +1,200 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("QN_DB_CONNECTION_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/client"
+}
+
+enum ENTITY_STATUS {
+  DRAFT
+  PUBLISH_REQUESTED
+  PUBLISHED
+  PUBLISH_FAILED
+}
+
+type FilterItem {
+  label String
+  value String
+}
+
+type FilterItemForCategoryContentExclusion {
+  label      String
+  dv360Value String
+  ttdValue   String
+}
+
+model Advertiser {
+  id                           String            @id @default(auto()) @map("_id") @db.ObjectId
+  qpId                         Int?
+  displayName                  String
+  entityStatus                 ENTITY_STATUS     @default(DRAFT)
+  defaultRightMediaOfferTypeId FilterItem
+  advertiserUrl                String
+  competitorUrl                String[]
+  geographicDetails            GeographicDetails
+  brandName                    String
+  createdAt                    DateTime          @default(now())
+  updatedAt                    DateTime          @updatedAt
+
+  // references
+  campaigns Campaign[]
+}
+
+type GeographicDetails {
+  timeZone  FilterItem
+  currency  FilterItem
+  locations FilterItemForCategoryContentExclusion
+}
+
+type Demographic {
+  from   Int
+  to     Int
+  gender FilterItem
+}
+
+type DemographicInformation {
+  demographic   Demographic
+  category      FilterItem
+  cultureVector FilterItem[]
+}
+
+type Flight {
+  from String
+  to   String
+}
+
+type gamePlanDetails {
+  kpi1Name             String
+  kpi1Value            String
+  kpi1Unit             String?
+  kpi2Name             String
+  kpi2Value            String
+  kpi2Unit             String?
+  kpi3Name             String
+  kpi3Value            String
+  kpi3Unit             String?
+  billingMetric        FilterItem
+  rate                 Int
+  budget               Int
+  estimatedImpressions Int
+  format               FilterItem[]
+  bidStrategyType      FilterItem
+}
+
+type ContentThemes {
+  keywordsFromAdvertiser    String[]
+  keywordsFromCompetitor    String[]
+  keywordsFromCategory      String[]
+  keywordsFromCultureVector String[]
+}
+
+type LimitFrequency {
+  frequency        Int
+  exposerPer       Int
+  exposerFrequency FilterItem
+}
+
+type IoTarget {
+  limitFrequency           LimitFrequency
+  totalMediaCost           Int
+  fees                     FilterItem
+  deviceTargeting          FilterItem[]
+  viewability              Int
+  categoryContentExclusion FilterItemForCategoryContentExclusion[]
+}
+
+type LineItems {
+  qpLineItemId Int
+  platform     String
+  keyword      String
+  format       String
+  device       String
+}
+
+type InsertionOrders {
+  qpInsertionOrderId Int
+  platform           String
+  format             String
+}
+
+type RetoolTarget {
+  platform             String
+  type                 String
+  fullName             String
+  leaf                 String
+  lineItemNameVariable String
+  platformId           String
+  relevance            Float
+  rowNumber            Int
+}
+
+type TargetSection {
+  name     String
+  platform String
+  type     String
+  targets  RetoolTarget[]
+}
+
+type Target {
+  audience TargetSection[]
+  content  TargetSection[]
+  location TargetSection[]
+  cultural TargetSection[]
+  t3pd     TargetSection[]
+  vividata TargetSection[]
+}
+
+model Campaign {
+  id                     String                                  @id @default(auto()) @map("_id") @db.ObjectId
+  qpId                   Int?
+  qpGamePlanId           Int?
+  insertionOrders        InsertionOrders[]
+  lineItems              LineItems[]
+  advertiser             Advertiser                              @relation(fields: [advertiserId], references: [id])
+  advertiserId           String                                  @db.ObjectId
+  displayName            String
+  goal                   FilterItem
+  billingCode            String
+  entityStatus           ENTITY_STATUS                           @default(DRAFT)
+  demographicInformation DemographicInformation
+  gamePlan               gamePlanDetails?
+  flights                Flight[]
+  channel                FilterItem[]
+  geographic             FilterItem[]
+  locations              FilterItemForCategoryContentExclusion[]
+  locationListName       String?
+  locationList           GeoLocationList?                        @relation(fields: [locationListName], references: [name])
+  platforms              FilterItem[]
+  contentThemes          ContentThemes?
+  targets                Target?
+  ioTarget               IoTarget?
+  language               String?
+  scale                  Float?
+  createdAt              DateTime                                @default(now())
+  updatedAt              DateTime                                @updatedAt
+}
+
+model PlatformIdentifier {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  entity      String
+  qpId        Int
+  identifiers Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model GeoLocationList {
+  name        String @id @map("_id")
+  displayName String
+  level       String
+  platforms   Json
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // refereces
+  Campaign Campaign[]
+}

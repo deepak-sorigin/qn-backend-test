@@ -1,0 +1,28 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("QN_RETOOL_DB_CONNECTION_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/retool"
+}
+
+model Category {
+  id                      Int       @id @default(autoincrement())
+  platform                String
+  type                    String
+  platform_id             String?
+  leaf                    String?
+  full_name               String
+  line_item_name_variable String?
+  // embedding                 Float[]?
+  embedding_model         String?
+  description             String?
+  cost                    Int?
+  embedding_string        String?
+  created_at              DateTime? @default(now())
+  updated_at              DateTime? @updatedAt
+
+  @@map("categories")
+}

@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# TypeScript
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm
+npm-debug.log
+*.log
+logs
+*.lock
+package-lock.json
+
+# Environment variables
+.env
+
+# Build artifacts
+build/
+
+src/logs/
