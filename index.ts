@@ -1,9 +1,9 @@
-import { configs, Environments, loadConfigs } from './src/config';
+import { configs, loadConfigs } from './src/config';
 
 // enable new relic for non development environment
-if (configs.NODE_ENV !== Environments.DEVELOPMENT) {
-  require('newrelic'); // new relic setup
-}
+// if (configs.NODE_ENV !== Environments.DEVELOPMENT) {
+//   require('newrelic'); // new relic setup
+// }
 
 const logger = require('./src/logger').default;
 
